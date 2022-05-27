@@ -11,3 +11,7 @@ app.listen("8080", () => {
     console.log("porta 8080")
 })
 
+function teste(){
+    console.log(x);
+
+}
