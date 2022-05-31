@@ -4,7 +4,7 @@ let app = express();
 app.use(express.static("."));
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + '/PlantaBaixa.mht')
+    res.sendFile(__dirname + '/Index.html')
 })
 
 app.listen("8080", () => {
